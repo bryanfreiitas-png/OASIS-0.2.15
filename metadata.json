@@ -1,0 +1,8 @@
+{
+  "name": "OASIS",
+  "description": "Cidade social em pixel art com criação de personagem, praça central, chat local por sala, inventário, decoração de espaço, mercado de trocas e minigames.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

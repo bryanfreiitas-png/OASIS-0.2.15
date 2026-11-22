@@ -1,0 +1,2309 @@
+{
+  "profiles": {
+    "p_mwjhwom1_npwh": {
+      "id": "p_mwjhwom1_npwh",
+      "name": "Morador_Oasis",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 450,
+      "gemas": 15,
+      "stepsWalked": 0,
+      "avatar": {
+        "gender": "feminino",
+        "skinTone": "#e09664",
+        "hairStyle": "coque_alto",
+        "hairColor": "#1e1b26",
+        "eyeColor": "#1a1523",
+        "tattoo": false,
+        "shirtId": "shirt_top_branco",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": null,
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1794847581483_loge6",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1794847581483
+        },
+        {
+          "instanceId": "inv_1794847581483_hv9qx",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1794847581483
+        },
+        {
+          "instanceId": "inv_1794847581483_ocb5l",
+          "itemId": "rust_03",
+          "obtainedAt": 1794847581483
+        },
+        {
+          "instanceId": "inv_1794847581483_w3csn",
+          "itemId": "rust_30",
+          "obtainedAt": 1794847581483
+        },
+        {
+          "instanceId": "inv_1794847581483_h88on",
+          "itemId": "rust_41",
+          "obtainedAt": 1794847581483
+        }
+      ],
+      "roomFurniture": [
+        {
+          "instanceId": "inv_1794847581483_h88on",
+          "itemId": "rust_41",
+          "x": 4,
+          "y": 4,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794847581483_ocb5l",
+          "itemId": "rust_03",
+          "x": 2,
+          "y": 2,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794847581483_w3csn",
+          "itemId": "rust_30",
+          "x": 7,
+          "y": 2,
+          "rotation": 0
+        }
+      ],
+      "roomTheme": "madeira_classica",
+      "friends": [
+        {
+          "id": "npc_luna",
+          "name": "Luna_04"
+        }
+      ],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 60 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 60,
+          "progress": 0,
+          "rewardCoins": 65,
+          "rewardGems": 2,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 80,
+          "rewardGems": 3,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 3 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 3,
+          "progress": 0,
+          "rewardCoins": 45,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 1 turno de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 55,
+          "rewardGems": 2,
+          "claimed": false
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre, venda ou negocie 1 item na Loja ou Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 70,
+          "rewardGems": 3,
+          "claimed": false
+        }
+      ],
+      "hasBuiltSpace": false,
+      "plotTiles": [],
+      "plotMaxBlocks": 36,
+      "wallAdded": [],
+      "wallRemoved": [],
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "needs": {
+        "energia": 100,
+        "fome": 100,
+        "diversao": 100,
+        "higiene": 100
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama do seu espaço",
+          "done": false,
+          "rewardCoins": 4
+        },
+        {
+          "id": "rt_comer",
+          "title": "Fazer uma refeição na cidade",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 8
+        }
+      ],
+      "lastMealAt": 1795371817246,
+      "lastBedPos": {
+        "x": 2,
+        "y": 2,
+        "itemId": "rust_03"
+      },
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": false,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [
+            {
+              "instanceId": "inv_1794847581483_h88on",
+              "itemId": "rust_41",
+              "x": 4,
+              "y": 4,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794847581483_ocb5l",
+              "itemId": "rust_03",
+              "x": 2,
+              "y": 2,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794847581483_w3csn",
+              "itemId": "rust_30",
+              "x": 7,
+              "y": 2,
+              "rotation": 0
+            }
+          ],
+          "plotTiles": [],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": {
+            "x": 2,
+            "y": 2,
+            "itemId": "rust_03"
+          }
+        }
+      ],
+      "activeLotIndex": 1,
+      "isFainted": false,
+      "faintedUntil": null,
+      "energyZeroSince": null,
+      "hungerZeroSince": null,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "godMode": false,
+      "profession": {
+        "mode": "none",
+        "activeProfession": null,
+        "confirmedAt": null,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 0,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": false,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 0
+        }
+      },
+      "equippedTools": {}
+    },
+    "p_mwjibxjz_co8a": {
+      "id": "p_mwjibxjz_co8a",
+      "name": "Morador_Oasis",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 543,
+      "gemas": 17,
+      "stepsWalked": 0,
+      "avatar": {
+        "gender": "masculino",
+        "skinTone": "#e09664",
+        "hairStyle": "topete_fade",
+        "hairColor": "#1e1b26",
+        "eyeColor": "#1a1523",
+        "tattoo": true,
+        "shirtId": "shirt_sem",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": "shoes_chinelo",
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1794848422938_f3ijq",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1794848422938
+        },
+        {
+          "instanceId": "inv_1794848422938_snkmo",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1794848422938
+        },
+        {
+          "instanceId": "inv_1794848422938_m4n5i",
+          "itemId": "rust_03",
+          "obtainedAt": 1794848422938
+        },
+        {
+          "instanceId": "inv_1794848422938_jybjy",
+          "itemId": "rust_30",
+          "obtainedAt": 1794848422938
+        },
+        {
+          "instanceId": "inv_1794848422938_ck47x",
+          "itemId": "rust_41",
+          "obtainedAt": 1794848422938
+        }
+      ],
+      "roomFurniture": [
+        {
+          "instanceId": "inv_1794848422938_ck47x",
+          "itemId": "rust_41",
+          "x": 4,
+          "y": 4,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794848422938_m4n5i",
+          "itemId": "rust_03",
+          "x": 2,
+          "y": 2,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794848422938_jybjy",
+          "itemId": "rust_30",
+          "x": 7,
+          "y": 2,
+          "rotation": 0
+        }
+      ],
+      "roomTheme": "madeira_classica",
+      "friends": [
+        {
+          "id": "npc_luna",
+          "name": "Luna_04"
+        }
+      ],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 60 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 60,
+          "progress": 0,
+          "rewardCoins": 65,
+          "rewardGems": 2,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 80,
+          "rewardGems": 3,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 3 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 3,
+          "progress": 0,
+          "rewardCoins": 45,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 1 turno de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 1,
+          "progress": 1,
+          "rewardCoins": 55,
+          "rewardGems": 2,
+          "claimed": true
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre, venda ou negocie 1 item na Loja ou Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 70,
+          "rewardGems": 3,
+          "claimed": false
+        }
+      ],
+      "hasBuiltSpace": false,
+      "plotTiles": [],
+      "plotMaxBlocks": 36,
+      "wallAdded": [],
+      "wallRemoved": [],
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "needs": {
+        "energia": 100,
+        "fome": 100,
+        "diversao": 100,
+        "higiene": 100
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama do seu espaço",
+          "done": false,
+          "rewardCoins": 4
+        },
+        {
+          "id": "rt_comer",
+          "title": "Fazer uma refeição na cidade",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 8
+        }
+      ],
+      "lastMealAt": 1795371817246,
+      "lastBedPos": {
+        "x": 2,
+        "y": 2,
+        "itemId": "rust_03"
+      },
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": false,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [
+            {
+              "instanceId": "inv_1794848422938_ck47x",
+              "itemId": "rust_41",
+              "x": 4,
+              "y": 4,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794848422938_m4n5i",
+              "itemId": "rust_03",
+              "x": 2,
+              "y": 2,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794848422938_jybjy",
+              "itemId": "rust_30",
+              "x": 7,
+              "y": 2,
+              "rotation": 0
+            }
+          ],
+          "plotTiles": [],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": {
+            "x": 2,
+            "y": 2,
+            "itemId": "rust_03"
+          }
+        }
+      ],
+      "activeLotIndex": 1,
+      "isFainted": false,
+      "faintedUntil": null,
+      "energyZeroSince": null,
+      "hungerZeroSince": null,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "godMode": false,
+      "profession": {
+        "mode": "none",
+        "activeProfession": null,
+        "confirmedAt": null,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 0,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": false,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 0
+        }
+      },
+      "equippedTools": {}
+    },
+    "p_mwjowzps_7t9b": {
+      "id": "p_mwjowzps_7t9b",
+      "name": "Morador_Oasis",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 465,
+      "gemas": 15,
+      "stepsWalked": 17,
+      "avatar": {
+        "gender": "masculino",
+        "skinTone": "#e09664",
+        "hairStyle": "topete_fade",
+        "hairColor": "#1e1b26",
+        "eyeColor": "#1a1523",
+        "tattoo": true,
+        "shirtId": "shirt_sem",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": "shoes_chinelo",
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1794859380555_2sian",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1794859380555
+        },
+        {
+          "instanceId": "inv_1794859380555_ieclk",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1794859380555
+        },
+        {
+          "instanceId": "inv_1794859380555_95nm1",
+          "itemId": "rust_03",
+          "obtainedAt": 1794859380555
+        },
+        {
+          "instanceId": "inv_1794859380555_sipdd",
+          "itemId": "rust_30",
+          "obtainedAt": 1794859380555
+        },
+        {
+          "instanceId": "inv_1794859380555_fvm8q",
+          "itemId": "rust_41",
+          "obtainedAt": 1794859380555
+        }
+      ],
+      "roomFurniture": [
+        {
+          "instanceId": "inv_1794859380555_fvm8q",
+          "itemId": "rust_41",
+          "x": 5,
+          "y": 5,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794859380555_95nm1",
+          "itemId": "rust_03",
+          "x": 3,
+          "y": 3,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1794859380555_sipdd",
+          "itemId": "rust_30",
+          "x": 8,
+          "y": 3,
+          "rotation": 0
+        }
+      ],
+      "roomTheme": "madeira_classica",
+      "plotTiles": [
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "3,8",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        "4,8",
+        "5,3",
+        "5,4",
+        "5,5",
+        "5,6",
+        "5,7",
+        "5,8",
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "7,3",
+        "7,4",
+        "7,5",
+        "7,6",
+        "7,7",
+        "7,8",
+        "8,3",
+        "8,4",
+        "8,5",
+        "8,6",
+        "8,7",
+        "8,8"
+      ],
+      "plotMaxBlocks": 36,
+      "needs": {
+        "energia": 100,
+        "fome": 82,
+        "diversao": 90,
+        "higiene": 90
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 20
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama ou sofá do seu espaço",
+          "done": true,
+          "rewardCoins": 15
+        },
+        {
+          "id": "rt_comer",
+          "title": "Tomar um café ou comer frutas na cidade",
+          "done": false,
+          "rewardCoins": 20
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 25
+        }
+      ],
+      "friends": [],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 60 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 60,
+          "progress": 17,
+          "rewardCoins": 65,
+          "rewardGems": 2,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 80,
+          "rewardGems": 3,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 3 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 3,
+          "progress": 0,
+          "rewardCoins": 45,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 1 turno de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 55,
+          "rewardGems": 2,
+          "claimed": false
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre no Catálogo ou negocie 1 item no Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 70,
+          "rewardGems": 3,
+          "claimed": false
+        }
+      ],
+      "hasBuiltSpace": true,
+      "wallAdded": [],
+      "wallRemoved": [],
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "lastMealAt": 1795371817246,
+      "lastBedPos": {
+        "x": 3,
+        "y": 3,
+        "itemId": "rust_03"
+      },
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": true,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [
+            {
+              "instanceId": "inv_1794859380555_fvm8q",
+              "itemId": "rust_41",
+              "x": 5,
+              "y": 5,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794859380555_95nm1",
+              "itemId": "rust_03",
+              "x": 3,
+              "y": 3,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1794859380555_sipdd",
+              "itemId": "rust_30",
+              "x": 8,
+              "y": 3,
+              "rotation": 0
+            }
+          ],
+          "plotTiles": [
+            "3,3",
+            "3,4",
+            "3,5",
+            "3,6",
+            "3,7",
+            "3,8",
+            "4,3",
+            "4,4",
+            "4,5",
+            "4,6",
+            "4,7",
+            "4,8",
+            "5,3",
+            "5,4",
+            "5,5",
+            "5,6",
+            "5,7",
+            "5,8",
+            "6,3",
+            "6,4",
+            "6,5",
+            "6,6",
+            "6,7",
+            "6,8",
+            "7,3",
+            "7,4",
+            "7,5",
+            "7,6",
+            "7,7",
+            "7,8",
+            "8,3",
+            "8,4",
+            "8,5",
+            "8,6",
+            "8,7",
+            "8,8"
+          ],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": {
+            "x": 3,
+            "y": 3,
+            "itemId": "rust_03"
+          }
+        }
+      ],
+      "activeLotIndex": 1,
+      "isFainted": false,
+      "faintedUntil": null,
+      "energyZeroSince": null,
+      "hungerZeroSince": null,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "godMode": false,
+      "profession": {
+        "mode": "none",
+        "activeProfession": null,
+        "confirmedAt": null,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 0,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": false,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 0
+        }
+      },
+      "equippedTools": {}
+    },
+    "p_mwknlogx_ghmi": {
+      "id": "p_mwknlogx_ghmi",
+      "name": "Morador_Oasis",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 0,
+      "gemas": 0,
+      "stepsWalked": 0,
+      "avatar": {
+        "gender": "masculino",
+        "skinTone": "#e09664",
+        "hairStyle": "topete_fade",
+        "hairColor": "#cbd5e1",
+        "eyeColor": "#1a1523",
+        "tattoo": true,
+        "shirtId": "shirt_top_branco",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": "shoes_chinelo",
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1795293860496_84lu3",
+          "itemId": "shirt_top_branco",
+          "obtainedAt": 1795293860496
+        },
+        {
+          "instanceId": "inv_1795293860496_vj0ld",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1795293860496
+        },
+        {
+          "instanceId": "inv_1795293860496_np3y3",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1795293860496
+        },
+        {
+          "instanceId": "inv_1795293860496_qt5we",
+          "itemId": "rust_03",
+          "obtainedAt": 1795293860496
+        },
+        {
+          "instanceId": "inv_1795293860496_s4xvt",
+          "itemId": "rust_30",
+          "obtainedAt": 1795293860496
+        },
+        {
+          "instanceId": "inv_1795293860496_d2zn3",
+          "itemId": "rust_41",
+          "obtainedAt": 1795293860496
+        }
+      ],
+      "roomFurniture": [
+        {
+          "instanceId": "inv_1795293860496_d2zn3",
+          "itemId": "rust_41",
+          "x": 5,
+          "y": 5,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1795293860496_qt5we",
+          "itemId": "rust_03",
+          "x": 3,
+          "y": 3,
+          "rotation": 0
+        },
+        {
+          "instanceId": "inv_1795293860496_s4xvt",
+          "itemId": "rust_30",
+          "x": 8,
+          "y": 3,
+          "rotation": 0
+        }
+      ],
+      "roomTheme": "madeira_classica",
+      "plotTiles": [
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "3,8",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        "4,8",
+        "5,3",
+        "5,4",
+        "5,5",
+        "5,6",
+        "5,7",
+        "5,8",
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "7,3",
+        "7,4",
+        "7,5",
+        "7,6",
+        "7,7",
+        "7,8",
+        "8,3",
+        "8,4",
+        "8,5",
+        "8,6",
+        "8,7",
+        "8,8"
+      ],
+      "plotMaxBlocks": 36,
+      "needs": {
+        "energia": 100,
+        "fome": 0,
+        "diversao": 0,
+        "higiene": 38
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama do seu espaço",
+          "done": false,
+          "rewardCoins": 4
+        },
+        {
+          "id": "rt_comer",
+          "title": "Fazer uma refeição na cidade",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 8
+        }
+      ],
+      "friends": [],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 120 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 120,
+          "progress": 0,
+          "rewardCoins": 14,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 18,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 5 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 5,
+          "progress": 0,
+          "rewardCoins": 10,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 2 turnos de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 2,
+          "progress": 0,
+          "rewardCoins": 15,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre no Catálogo ou negocie 1 item no Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 16,
+          "rewardGems": 1,
+          "claimed": false
+        }
+      ],
+      "lastMealAt": 1795293860496,
+      "lastBedPos": {
+        "x": 3,
+        "y": 3,
+        "itemId": "rust_03"
+      },
+      "isFainted": true,
+      "faintedUntil": 1795294471542,
+      "energyZeroSince": null,
+      "hungerZeroSince": 1795294221535,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "godMode": false,
+      "hasBuiltSpace": true,
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "wallAdded": [],
+      "wallRemoved": [],
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": true,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [
+            {
+              "instanceId": "inv_1795293860496_d2zn3",
+              "itemId": "rust_41",
+              "x": 5,
+              "y": 5,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1795293860496_qt5we",
+              "itemId": "rust_03",
+              "x": 3,
+              "y": 3,
+              "rotation": 0
+            },
+            {
+              "instanceId": "inv_1795293860496_s4xvt",
+              "itemId": "rust_30",
+              "x": 8,
+              "y": 3,
+              "rotation": 0
+            }
+          ],
+          "plotTiles": [
+            "3,3",
+            "3,4",
+            "3,5",
+            "3,6",
+            "3,7",
+            "3,8",
+            "4,3",
+            "4,4",
+            "4,5",
+            "4,6",
+            "4,7",
+            "4,8",
+            "5,3",
+            "5,4",
+            "5,5",
+            "5,6",
+            "5,7",
+            "5,8",
+            "6,3",
+            "6,4",
+            "6,5",
+            "6,6",
+            "6,7",
+            "6,8",
+            "7,3",
+            "7,4",
+            "7,5",
+            "7,6",
+            "7,7",
+            "7,8",
+            "8,3",
+            "8,4",
+            "8,5",
+            "8,6",
+            "8,7",
+            "8,8"
+          ],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": {
+            "x": 3,
+            "y": 3,
+            "itemId": "rust_03"
+          }
+        }
+      ],
+      "activeLotIndex": 1,
+      "profession": {
+        "mode": "none",
+        "activeProfession": null,
+        "confirmedAt": null,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 0,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": false,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 0
+        }
+      },
+      "equippedTools": {}
+    },
+    "p_mwraq4rk_t724": {
+      "id": "p_mwraq4rk_t724",
+      "name": "ADM",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 0,
+      "gemas": 0,
+      "stepsWalked": 272,
+      "avatar": {
+        "gender": "masculino",
+        "skinTone": "#f5b988",
+        "hairStyle": "militar_fade",
+        "hairColor": "#4a2c20",
+        "eyeColor": "#1a1523",
+        "tattoo": false,
+        "shirtId": "shirt_jersey_coroa_preta",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": "shoes_chinelo",
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1795357841586_famv3",
+          "itemId": "shirt_jersey_coroa_preta",
+          "obtainedAt": 1795357841586
+        },
+        {
+          "instanceId": "inv_1795357841586_veo9a",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1795357841586
+        },
+        {
+          "instanceId": "inv_1795357841586_w7evt",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1795357841586
+        },
+        {
+          "instanceId": "inv_1795357841587_ttwyc",
+          "itemId": "hair_cacheado_volumoso",
+          "obtainedAt": 1795357841587
+        },
+        {
+          "instanceId": "inv_1795357841587_uhgir",
+          "itemId": "rust_03",
+          "obtainedAt": 1795357841587
+        },
+        {
+          "instanceId": "inv_1795357841587_1bu44",
+          "itemId": "rust_30",
+          "obtainedAt": 1795357841587
+        },
+        {
+          "instanceId": "inv_1795357841587_fn5d4",
+          "itemId": "rust_41",
+          "obtainedAt": 1795357841587
+        }
+      ],
+      "roomFurniture": [],
+      "roomTheme": "madeira_classica",
+      "hasBuiltSpace": false,
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "plotTiles": [],
+      "plotMaxBlocks": 36,
+      "wallAdded": [],
+      "wallRemoved": [],
+      "needs": {
+        "energia": 54,
+        "fome": 0,
+        "diversao": 16,
+        "higiene": 0
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama do seu espaço",
+          "done": false,
+          "rewardCoins": 4
+        },
+        {
+          "id": "rt_comer",
+          "title": "Fazer uma refeição na cidade",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 8
+        }
+      ],
+      "friends": [],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 120 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 120,
+          "progress": 120,
+          "rewardCoins": 14,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 18,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 5 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 5,
+          "progress": 0,
+          "rewardCoins": 10,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 2 turnos de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 2,
+          "progress": 0,
+          "rewardCoins": 15,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre no Catálogo ou negocie 1 item no Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 16,
+          "rewardGems": 1,
+          "claimed": false
+        }
+      ],
+      "lastMealAt": 1795358453014,
+      "lastBedPos": null,
+      "isFainted": true,
+      "faintedUntil": 1795359970455,
+      "energyZeroSince": null,
+      "hungerZeroSince": 1795359720447,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "profession": {
+        "mode": "none",
+        "activeProfession": null,
+        "confirmedAt": null,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 0,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": false,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 0
+        }
+      },
+      "equippedTools": {},
+      "godMode": false,
+      "resourceNodes": {
+        "node_floresta_troncos": {
+          "id": "node_floresta_troncos",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_toco": {
+          "id": "node_floresta_toco",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_floresta_tronco_nobre": {
+          "id": "node_floresta_tronco_nobre",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_floresta_flores": {
+          "id": "node_floresta_flores",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cogumelos": {
+          "id": "node_floresta_cogumelos",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_floresta_lagoa": {
+          "id": "node_floresta_lagoa",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cachoeira": {
+          "id": "node_floresta_cachoeira",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cristal": {
+          "id": "node_floresta_cristal",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_caixas_cobre": {
+          "id": "node_mina_caixas_cobre",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_mina_cristal_azul": {
+          "id": "node_mina_cristal_azul",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_ametista": {
+          "id": "node_mina_ametista",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_ouro_rubi": {
+          "id": "node_mina_ouro_rubi",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        },
+        "node_mina_fungos": {
+          "id": "node_mina_fungos",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_riacho": {
+          "id": "node_oasis_riacho",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cachoeira": {
+          "id": "node_oasis_cachoeira",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cactos": {
+          "id": "node_oasis_cactos",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_oasis_ervas_sul": {
+          "id": "node_oasis_ervas_sul",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_lenha_fogueira": {
+          "id": "node_oasis_lenha_fogueira",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_palmeira": {
+          "id": "node_oasis_palmeira",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cristal_canion": {
+          "id": "node_oasis_cristal_canion",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_fossil": {
+          "id": "node_oasis_fossil",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        }
+      },
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": false,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [],
+          "plotTiles": [],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": null
+        }
+      ],
+      "activeLotIndex": 1
+    },
+    "p_mws2p7po_g7af": {
+      "id": "p_mws2p7po_g7af",
+      "name": "Morador_Oasis",
+      "bio": "Pronto para curtir a Praça Central!",
+      "moedas": 10016,
+      "gemas": 0,
+      "stepsWalked": 91,
+      "avatar": {
+        "gender": "masculino",
+        "skinTone": "#f5b988",
+        "hairStyle": "militar_fade",
+        "hairColor": "#1e1b26",
+        "eyeColor": "#1a1523",
+        "tattoo": false,
+        "shirtId": "shirt_jersey_oasis_ouro",
+        "pantsId": "pants_shorts_branco",
+        "shoesId": "shoes_chinelo",
+        "accessoryId": null
+      },
+      "inventory": [
+        {
+          "instanceId": "inv_1795370766196_ydanb",
+          "itemId": "shirt_jersey_oasis_ouro",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_d2w4v",
+          "itemId": "pants_shorts_branco",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_i67yb",
+          "itemId": "shoes_chinelo",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_8mg7k",
+          "itemId": "hair_militar_fade",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_d2qjn",
+          "itemId": "rust_03",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_hhdhs",
+          "itemId": "rust_30",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370766196_agsrn",
+          "itemId": "rust_41",
+          "obtainedAt": 1795370766196
+        },
+        {
+          "instanceId": "inv_1795370790208_ebl7x",
+          "itemId": "tool_vara_1",
+          "obtainedAt": 1795370790208,
+          "maxDurability": 18,
+          "durability": 13
+        }
+      ],
+      "roomFurniture": [],
+      "roomTheme": "madeira_classica",
+      "hasBuiltSpace": false,
+      "floorStyleId": "piso_madeira_padrao",
+      "wallStyleId": "parede_creme_padrao",
+      "ownedFloorStyles": [
+        "piso_madeira_padrao"
+      ],
+      "ownedWallStyles": [
+        "parede_creme_padrao"
+      ],
+      "plotTiles": [],
+      "plotMaxBlocks": 36,
+      "wallAdded": [],
+      "wallRemoved": [],
+      "needs": {
+        "energia": 100,
+        "fome": 100,
+        "diversao": 100,
+        "higiene": 100
+      },
+      "routineTasks": [
+        {
+          "id": "rt_arrumar",
+          "title": "Cuidar da casa (arrumar ou regar planta)",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_descansar",
+          "title": "Descansar na cama do seu espaço",
+          "done": false,
+          "rewardCoins": 4
+        },
+        {
+          "id": "rt_comer",
+          "title": "Fazer uma refeição na cidade",
+          "done": false,
+          "rewardCoins": 5
+        },
+        {
+          "id": "rt_trabalho",
+          "title": "Cumprir 1 turno de trabalho na rotina",
+          "done": false,
+          "rewardCoins": 8
+        }
+      ],
+      "friends": [],
+      "quests": [
+        {
+          "id": "q_steps",
+          "title": "Explorador de Oasis",
+          "description": "Caminhe 120 passos pelos espaços da cidade.",
+          "metric": "steps",
+          "target": 120,
+          "progress": 91,
+          "rewardCoins": 14,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_friends",
+          "title": "Novas Amizades",
+          "description": "Adicione 1 amigo na Praça ou em qualquer ambiente.",
+          "metric": "friends",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 18,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_chat",
+          "title": "Papo na Praça",
+          "description": "Envie 5 mensagens no chat local de qualquer sala.",
+          "metric": "messages",
+          "target": 5,
+          "progress": 0,
+          "rewardCoins": 10,
+          "rewardGems": 0,
+          "claimed": false
+        },
+        {
+          "id": "q_work",
+          "title": "Turno Free-to-Play",
+          "description": "Complete 2 turnos de trabalho em um minigame.",
+          "metric": "minigames",
+          "target": 2,
+          "progress": 0,
+          "rewardCoins": 15,
+          "rewardGems": 1,
+          "claimed": false
+        },
+        {
+          "id": "q_trade",
+          "title": "Comerciante Nato",
+          "description": "Compre no Catálogo ou negocie 1 item no Bazar.",
+          "metric": "trades_or_buys",
+          "target": 1,
+          "progress": 0,
+          "rewardCoins": 16,
+          "rewardGems": 1,
+          "claimed": false
+        }
+      ],
+      "lastMealAt": 1795370935791,
+      "lastBedPos": null,
+      "isFainted": false,
+      "faintedUntil": null,
+      "energyZeroSince": null,
+      "hungerZeroSince": null,
+      "isRestingOnBed": false,
+      "activeActivity": null,
+      "profession": {
+        "mode": "confirmed",
+        "activeProfession": "pescador",
+        "confirmedAt": 1795370790208,
+        "lastProfessionChangeAt": null,
+        "trialUsedMs": {
+          "lenhador": 0,
+          "pescador": 0,
+          "coletor": 0,
+          "minerador": 0,
+          "ferreiro": 0,
+          "carpinteiro": 0
+        },
+        "xp": 70,
+        "level": 1,
+        "skillPoints": 0,
+        "unlockedSkills": [],
+        "specialization": null,
+        "claimedStarterKit": true,
+        "skills": {
+          "lenhador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "pescador": {
+            "unlocked": true,
+            "xp": 70,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": 1795370790208
+          },
+          "coletor": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "minerador": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "ferreiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          },
+          "carpinteiro": {
+            "unlocked": false,
+            "xp": 0,
+            "level": 1,
+            "skillPoints": 0,
+            "unlockedSkills": [],
+            "specialization": null,
+            "unlockedAt": null
+          }
+        },
+        "stats": {
+          "gathered": 0,
+          "crafted": 0,
+          "repaired": 0,
+          "marketSold": 10
+        }
+      },
+      "equippedTools": {
+        "pescador": "inv_1795370790208_ebl7x"
+      },
+      "resourceNodes": {
+        "node_floresta_troncos": {
+          "id": "node_floresta_troncos",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_toco": {
+          "id": "node_floresta_toco",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_tronco_nobre": {
+          "id": "node_floresta_tronco_nobre",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_tronco_leste": {
+          "id": "node_floresta_tronco_leste",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_flores": {
+          "id": "node_floresta_flores",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cogumelos": {
+          "id": "node_floresta_cogumelos",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_ervas_oeste": {
+          "id": "node_floresta_ervas_oeste",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_lagoa": {
+          "id": "node_floresta_lagoa",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cachoeira": {
+          "id": "node_floresta_cachoeira",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_riacho_leste": {
+          "id": "node_floresta_riacho_leste",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_cristal": {
+          "id": "node_floresta_cristal",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_pedras_norte": {
+          "id": "node_floresta_pedras_norte",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_floresta_pedras_leste": {
+          "id": "node_floresta_pedras_leste",
+          "charges": 6,
+          "maxCharges": 6,
+          "nextRespawnAt": null
+        },
+        "node_mina_caixas_cobre": {
+          "id": "node_mina_caixas_cobre",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_cristal_azul": {
+          "id": "node_mina_cristal_azul",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_cristal_ciano": {
+          "id": "node_mina_cristal_ciano",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_ametista": {
+          "id": "node_mina_ametista",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_ouro_rubi": {
+          "id": "node_mina_ouro_rubi",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_mina_cachoeira_2andar": {
+          "id": "node_mina_cachoeira_2andar",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_riacho": {
+          "id": "node_oasis_riacho",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cachoeira": {
+          "id": "node_oasis_cachoeira",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cactos": {
+          "id": "node_oasis_cactos",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_ervas_sul": {
+          "id": "node_oasis_ervas_sul",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        },
+        "node_oasis_lenha_fogueira": {
+          "id": "node_oasis_lenha_fogueira",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_palmeira": {
+          "id": "node_oasis_palmeira",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        },
+        "node_oasis_cristal_canion": {
+          "id": "node_oasis_cristal_canion",
+          "charges": 5,
+          "maxCharges": 5,
+          "nextRespawnAt": null
+        },
+        "node_oasis_fossil": {
+          "id": "node_oasis_fossil",
+          "charges": 4,
+          "maxCharges": 4,
+          "nextRespawnAt": null
+        }
+      },
+      "godMode": true,
+      "lots": [
+        {
+          "lotIndex": 1,
+          "name": "Lote 1",
+          "accessMode": "public",
+          "theme": "madeira_classica",
+          "hasBuiltSpace": false,
+          "floorStyleId": "piso_madeira_padrao",
+          "wallStyleId": "parede_creme_padrao",
+          "furniture": [],
+          "plotTiles": [],
+          "plotMaxBlocks": 36,
+          "wallAdded": [],
+          "wallRemoved": [],
+          "lastBedPos": null
+        }
+      ],
+      "activeLotIndex": 1
+    }
+  },
+  "marketListings": [
+    {
+      "listingId": "lst_seed_sofa",
+      "sellerId": "npc_lello",
+      "sellerName": "Lello",
+      "itemId": "furn_sofa_raro",
+      "instanceId": "seed_inst_sofa",
+      "priceCoins": 245,
+      "createdAt": 1794846903794
+    },
+    {
+      "listingId": "lst_seed_jacket",
+      "sellerId": "npc_magnus",
+      "sellerName": "MagnuS",
+      "itemId": "shirt_jaqueta_cyber",
+      "instanceId": "seed_inst_jacket",
+      "priceCoins": 215,
+      "createdAt": 1794847023794
+    },
+    {
+      "listingId": "lst_seed_glasses",
+      "sellerId": "npc_dudurp",
+      "sellerName": "DuduRP",
+      "itemId": "acc_oculos_escuros",
+      "instanceId": "seed_inst_glasses",
+      "priceCoins": 105,
+      "createdAt": 1794847143794
+    }
+  ],
+  "marketHistory": [],
+  "economyConfig": {
+    "trialDurationMs": 900000,
+    "marketTaxRate": 0.05,
+    "professionChangeCostCoins": 450,
+    "professionChangeCooldownMs": 1800000,
+    "xpMultiplier": 1,
+    "gatherCooldownMs": 1800,
+    "nodeRespawnMultiplier": 1,
+    "repairFeeMultiplier": 1
+  },
+  "trades": {}
+}
